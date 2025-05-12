@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .contain { display: grid; grid-template-columns: repeat(3, 100px); gap: 30px; }
+    .eej { width: 100px; height: 100px; background: green; }
+    @media (max-width: 600px) { .contain { gap: 10px; } }
+    @media (max-width: 400px) { .contain { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="contain">
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+    <div class="eej"></div>
+  </div>
+</body>
+</html>
