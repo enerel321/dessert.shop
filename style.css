@@ -1,0 +1,74 @@
+	•	{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: pink;
+}
+
+header {
+  background-color: brown;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: red;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+main {
+  padding: 30px 50px;
+}
+
+.profiles h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  background-color: blue;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-body .role {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-body .quote {
+  font-size: 13px;
+  font-style: italic;
+  color: green;
+}
